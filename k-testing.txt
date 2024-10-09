@@ -1,0 +1,79 @@
+first test run time 60s locked cluster 20
+Testing with LOCKED CLUSTERS and ramping sites
+
+
+sequential
+last test
+====== Test No: 76 ======
+Cycles: 122 | Clusters: 20 | Sites: 38500 | Runtime: 0.74133
+* TEST RESULTS *
+
+Total run time (sec): 61.063
+Total tests done: 77
+Current number of clusters: 20
+Current number of sites: 38500
+
+
+
+
+
+parallel
+====== Test No: 85 ======
+Cycles: 113 | Clusters: 20 | Sites: 43000 | Runtime: 0.618
+
+* TEST RESULTS *
+
+Total run time (sec): 61.64
+Total tests done: 86
+Current number of clusters: 20
+Current number of sites: 43000
+
+distributed
+====== Test No: 70 ======
+Cycles: 112 | Clusters: 20 | Sites: 35500 | Runtime: 0.829
+* TEST RESULTS *
+
+Total run time (sec): 61.336
+Total tests done: 71
+Current number of clusters: 20
+Current number of sites: 35500
+
+
+
+Testing with LOCKED SITES and ramping clusters and 30k sites 60s run time
+seq
+Cycles: 227 | Clusters: 85 | Sites: 30000 | Runtime: 3.251
+* TEST RESULTS *
+
+Total run time (sec): 63.587
+Total tests done: 17
+Current number of clusters: 85
+Current number of sites: 30000
+
+
+
+par
+* TEST RESULTS *
+====== Test No: 20 ======
+Cycles: 242 | Clusters: 105 | Sites: 30000 | Runtime: 2.779
+Total run time (sec): 66.141
+Total tests done: 21
+Current number of clusters: 105
+Current number of sites: 30000
+
+
+
+distr
+* TEST RESULTS *
+
+Total run time (sec): 66.452
+Total tests done: 17
+Current number of clusters: 85
+Current number of sites: 30000
+====== Test No: 16 ======
+Cycles: 180 | Clusters: 85 | Sites: 30000 | Runtime: 3.33967
+
+
+
+
+
